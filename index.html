@@ -55,8 +55,7 @@
    </nav>   
 </div>  
  </header>     
-
-           <section id="about"  class="section"> 
+           <section class="section"> 
             <div   class="container">  
                 <div class="inner-info">    
                 <div class="image" data-aos="zoom-in-right" data-aos-duration="2000"> 
@@ -99,7 +98,7 @@
                     data-aos-delay="1300">SKILLS</span>  
                <div class="container">                  
             <div class="inner-card">                      
-                <div class="card">
+                <div class="card"  data-aos="fade-up" data-aos-delay="100"> 
             <div class="card-image">
               <img src="img/figma.png" alt="...">       
            </div> 
@@ -115,32 +114,35 @@
             </div> 
         </div> 
         
-        <div class="card"> 
+        <div class="card"  data-aos="fade-up"
+     data-aos-delay="200"> 
             <div class="card-image">                 
             <img src="img/html.png" alt="..."> 
        </div>
             <div class="card-content">  
                    <strong data-lang="nav_skills">SKILLS</strong>
               <div class="skills-starting">  
-                <i class="fa-brands fa-html5"> <span>HTML</span> </i>
-        </div>
-                <p data-lang="html_text">HyperText Markup Language</p>
+                    <i class="fa-brands fa-html5"> <span>HTML</span> </i>
+            </div>
+                    <p data-lang="html_text">HyperText Markup Language</p>
             </div>
         </div>
     
-        <div class="card">
+        <div class="card" data-aos="fade-up"
+     data-aos-delay="300">
             <div class="card-image">
-              <img src="./img/css.png" alt="...">                
+                 <img src="./img/css.png" alt="...">                
         </div>
             <div class="card-content">  
-                    <strong data-lang="nav_skills">SKILLS</strong>
+                     <strong data-lang="nav_skills">SKILLS</strong>
                  <div class="skills-starting">  
-                    <i class="fa-brands fa-css3-alt"> <span>CSS</span>  </i>
-            </div>
-                <p data-lang="css_text">Cascading Style Sheets</p>
-            </div>
-        </div>             
-        <div class="card">
+                      <i class="fa-brands fa-css3-alt"> <span>CSS</span>  </i>
+              </div>
+                  <p data-lang="css_text">Cascading Style Sheets</p>
+         </div>
+      </div>             
+        <div class="card"  data-aos="fade-up"
+     data-aos-duration="400">
             <div class="card-image">
                 <img src="./img/js.png" alt="...">               
             </div>
@@ -152,7 +154,8 @@
                 <p data-lang="js_text">programming language</p>
             </div>
         </div>
-        <div class="card">
+        <div class="card"  data-aos="fade-up"
+     data-aos-delay="500">
             <div class="card-image">
                 <img src="img/sheets.jpeg" alt="...">            
             </div>
@@ -165,8 +168,8 @@
                 <p data-lang="sheets_text">google sheets</p>                  
             </div>
         </div>
-             <div class="card"> 
-                
+     <div class="card"  data-aos="fade-up"
+     data-aos-delay="600">             
             <div class="card-image">
                 <img src="img/al.jpeg" alt="...">            
             </div>
@@ -324,7 +327,7 @@
 <script src="script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init({offset:0});
+  AOS.init({offset:0, once: true, duration: 600});
 </script>
 
      
