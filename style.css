@@ -73,7 +73,7 @@ html {
     background-color: #262626;  
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
-    height: 10vh; 
+    height: 10vh;  
     top: 0;
     left: 0; 
     width: 100%;
@@ -335,8 +335,8 @@ html {
 .section-skills {  
    text-align: center;  
    background: #262626; 
-   margin-top: 30rem;
-   padding: 60px 0px; 
+   margin-top: 15rem; 
+   padding: 60px 0px;  
 }
 
  
@@ -931,7 +931,7 @@ form .btn {
     }
     
     .section-skills {
-          margin-top: 30rem;       
+          margin-top: 15rem;       
 }    
 
     .certs-container,
@@ -1008,9 +1008,7 @@ form .btn {
 
     .content .typewriter {
       font-weight: 400; 
-      font-size: clamp(1rem, 1rem + 1vw, 1rem);     
-
-      
+      font-size: clamp(1rem, 1rem + 1vw, 1rem);           
 }
 
     .content .typewriter span {
@@ -1021,8 +1019,6 @@ form .btn {
       font-size: clamp(1.2rem, 1.4rem + 9vw, 0.9rem);       
       margin: 20px 0;                   
 }
-
-
 
     .social-links {
         justify-content: center; 
@@ -1074,7 +1070,7 @@ form .btn {
     color: white;
     background: red;
     border-radius: 50%;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
    }
 }
@@ -1099,7 +1095,7 @@ form .btn {
     }
 
     .section-skills  {
-        margin-top: 30rem;
+        margin-top: 10rem;
     }
     
     .container .content p {
@@ -1176,7 +1172,7 @@ form .btn {
 }
 
      .title {
-        font-size: 1.2rem; 
+        font-size: 1.5rem; 
     }
 
     .contact-left {
