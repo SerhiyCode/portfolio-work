@@ -4,7 +4,6 @@
     box-sizing: border-box; 
 } 
 
-
 *,
 *:before,
 *:after {
@@ -40,7 +39,6 @@ html {
     box-sizing: border-box;
 }
 
-
 .header-inner {  
     width: 100%;   
     /* height: 100%;     */
@@ -64,9 +62,7 @@ html {
     transform: translateY(-160%);
 }
 
-
-
- nav { 
+ .nav { 
     display: flex; 
     padding: 20px 30px 20px;
     width: 100%;     
@@ -79,7 +75,6 @@ html {
     width: 100%;
     z-index: 10;      
 } 
-
 
 .namburg {
      display: none; 
@@ -286,8 +281,7 @@ html {
     display: inline-block;
     padding: 16px 32px;           
     background: #ff0044;          
-    /* color: white;     */
-    color: #1c160f;
+    color: white;    
     text-decoration: none;
     border-radius: 50px;
     font-weight: bold;
@@ -295,25 +289,17 @@ html {
     transition: all 0.3s;     
 }
  
-.contact-right .btn-form {
-   border: 1.5px solid #121212;  
-         
-} 
-
 .btn:hover {
     background: #cd0037;          
     transform: translateY(-3px);  
 }
 
-
 .btn-download {
     display: inline-block;
     padding: 16px 32px;          
     margin-top: 50px; 
-
-    background: #ff0044;           
-    border: 1.5px solid #121212;  
-    color: #1c160f;
+    background: #ff0044;             
+    color: white;
     text-decoration: none;
     border-radius: 50px;
     font-weight: bold;
@@ -322,11 +308,10 @@ html {
  }  
 
 
-  .btn-download:hover {
+.btn-download:hover {
     background: #cd0037;          
     transform: translateY(-3px);    
  } 
-
 
 .section { 
     width: 100%;  
@@ -386,20 +371,20 @@ html {
  
 
 @keyframes cursor {
-    to {
-        border-left: 2px solid transparent;
+ to {
+     border-left: 2px solid transparent;
     }
 }  
 
-  @keyframes words {
-    0%, 33% {
-        content: "Engineer (AI)";
+@keyframes words {
+  0%, 33% {
+     content: "Engineer (AI)";
     } 
-    40%, 66% {
-        content: "Operator";
+       40%, 66% {
+     content: "Operator";
     }
-    67%, 100% {
-        content: " ";
+       67%, 100% {
+     content: " ";
     }
 }
 
@@ -488,8 +473,6 @@ html {
     gap: 20px; 
     margin: 120px 0px 100px 0px;  
     justify-content: center;  
-    /* width: 100%; */
-    /* margin: 0 auto;      */    
 }
 
 
@@ -513,8 +496,8 @@ html {
 }
 
 .card .card-image img {
-      width: 100%;     
-      width: 150px; 
+    width: 100%;     
+    width: 150px; 
     height: 100px; 
     transition: .4s ease;  
     border-radius: 10px;
@@ -534,8 +517,6 @@ html {
     color: whitesmoke;
 }
 
-
-
 .card .card-content span {
     color: #8B7355;
     font-size: 17px;
@@ -543,7 +524,6 @@ html {
 }   
 
 .card .card-content strong {
-    /* color: #8B7355; */
     font-size: 17px;   
     margin: 20px 0px 20px; 
     background: #262626; 
@@ -600,13 +580,13 @@ html {
 }
 
 .cert-item {
-  width: 70px;  
-  padding: 1px 1px 0; 
-  cursor: pointer; 
-  display: block;   
-  overflow: hidden; 
-  box-shadow: 1px 3px 15px #7e807e; 
-  transition: all 1.5s;
+     width: 70px;  
+     padding: 1px 1px 0; 
+     cursor: pointer; 
+     display: block;   
+     overflow: hidden; 
+     box-shadow: 1px 3px 15px #7e807e; 
+     transition: all 1.5s;
 }
 
 .cert-item:hover {
@@ -626,8 +606,6 @@ html {
 .certs-container:hover .cert-item:nth-child(3):hover {
     width: 300px;
 }
-
-
 
 .video-block {
     padding: 60px 20px;    
@@ -682,15 +660,14 @@ html {
      display: flex; 
      flex-direction: column-reverse;  
      text-align: center; 
-     /* background-color: #262626; */
 }  
 
 .contact-bac {
-    background-color: #262626; 
-    width: 100%;
+     background-color: #262626; 
+     width: 100%;
 }
 
-.contact-left {
+.contact-info {
     flex-basis: 35%;  
     display: flex;  
     align-items: center;
@@ -698,7 +675,7 @@ html {
     justify-content: space-around;  
 }
 
-.contact-right {
+.contact-form {
     flex-basis: 60%;  
     display: flex;
     justify-content: center;
@@ -706,7 +683,7 @@ html {
 }
 
 
-.contact-left p { 
+.contact-info p { 
      color: lightslategrey; 
      margin-top: 50px;    
      cursor: pointer;
@@ -715,7 +692,7 @@ html {
      transition: background 0.3s ease;
 } 
 
-.contact-left p:hover {
+.contact-info p:hover {
      background: #262311; 
     }
 
@@ -732,19 +709,14 @@ html {
       transform: translateY(-50%);
     }
 
-
-.contact-left p i { 
+.contact-info p i { 
     margin-right: 15px;
-    /* color: #ff004f;     */
     color: white;
     font-size: 15px;
 }
 
-
 .social-icons {
     margin-top: 70px;   
-    
-
 }
 
 .social-icons a {
@@ -756,13 +728,12 @@ html {
     transition: transform 0.5s;     
 }
 
-
 .social-icons a:hover {
     color: white; 
     transform: translateY(-5px);  
 } 
 
-.contact-right form {
+.contact-form form {
     width: 100%;      
 }
 
@@ -780,8 +751,6 @@ hr:hover {
   box-shadow: 0 0 20px #d4af37;
   width: 80%;
 }
-
-
 
 form input, form textarea {
     width: 100%; 
@@ -802,18 +771,13 @@ form .btn {
     border: none;
 }
 
-
-
-
-.copyright {
+.contact-footer {
     width: 100%; 
     text-align: center; 
     background: #262626; 
     padding: 50px 0;
     margin-top: 20px;
 }
-
-
 
 #message {
     color: green;  
@@ -823,26 +787,23 @@ form .btn {
     font-size: 18px;
 }
 
-
-
 .voice-assistant {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 9999;
   }
-  .assistant-avatar {
+.assistant-avatar {
     cursor: pointer;
     border-radius: 50%;
     transition: transform 0.3s;
   } 
 
-  .assistant-avatar:hover {
+.assistant-avatar:hover {
      transform: scale(1.15);
     }   
 
-
-  .assistant-avatar img {  
+ .assistant-avatar img {  
      width: 65px;
      height: 65px;   
      border-radius: 50%; border: 2px solid #1c160f ;  
@@ -850,7 +811,7 @@ form .btn {
      background-color: #262626;
  }
 
-  .assistant-bubble {
+ .assistant-bubble {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -862,7 +823,7 @@ form .btn {
     border: 6px solid #1c160f;
     box-shadow: inset 0 0 15px rgba(139, 90, 43, 0.3), 0 8px 25px rgba(0, 0, 0, 0.6); 
   }
-  .assistant-bubble::after {
+.assistant-bubble::after {
     content: '';
     position: absolute;
     bottom: -10px;
@@ -871,7 +832,7 @@ form .btn {
     border-top-color: #00ffff;
   }
 
-  .play-voice-btn {
+.play-voice-btn {
     background: #00ffff;
     color: #000;
     border: none;
@@ -881,7 +842,7 @@ form .btn {
     cursor: pointer;
     margin-top: 8px;
   }
-  .close-bubble {
+.close-bubble {
     position: absolute;
     top: 0px;
     right: -3px; 
@@ -895,165 +856,140 @@ form .btn {
     cursor: pointer;
   }
 
-  .hidden { 
+.hidden { 
     display: none;
  }
 
 
-
 /**  CSS  FOR SMALL SCREENS**/
-  @media (max-width: 1280px) {
-    .container {
-        flex-wrap: wrap;
-        justify-content: center;
+ @media (max-width: 1280px) {
+.container {
+      flex-wrap: wrap;
+      justify-content: center;
     }   
-
-    .title {
-        font-size: 2rem;
+.title {
+      font-size: 2rem;
     }
-
-    .container .card {
-        margin: 20px 0px 0px;
+.container .card {
+       margin: 20px 0px 0px;
     } 
-    
-    .card .card-content strong {
-        margin: 45px 0px 20px;
+.card .card-content strong {
+       margin: 45px 0px 20px;
     }
-
-    .card .card-image{ 
-        /* width: 170px; */
+.card .card-image{ 
         max-height: 70px;
 } 
-
-     .contact-right form {
+.contact-form form {
         width: 70%;
     }  
-
-    .contact-left {
-    flex-basis: 35%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-evenly;
+.contact-info {
+       flex-basis: 35%;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       justify-content: space-evenly;
   }
 }  
 
-
-
 @media (max-width:884px) {
-    .container {
-        padding: 0 16px;       
+.container {
+      padding: 0 16px;       
     } 
     
-    .section {
-        padding-top: 100px 0 60px;   
+.section {
+      padding-top: 100px 0 60px;   
     }
     
-    .section-skills {
-          margin-top: 15rem;       
+.section-skills {
+      margin-top: 15rem;       
 }    
 
-    .certs-container,
-    .video-wrapper {
+.certs-container,
+.video-wrapper {
         width: calc(100vw - 32px);     
         max-width: 100vw;
-        /* margin-left: calc(50% - 50vw);   */
         margin-right: calc(50% - 50vw);
         position: relative;
         left: 50%;
         transform: translateX(-50%);
     }
 
-    .title {
+.title {
         font-size: 1.1rem;
     }
-    .image { 
-        /* margin-top: 20px; */
+.image { 
         text-align: center; 
     }   
 
-    .title{
+.title{
         font-size: 1.8rem
-    }
-
-    
-    .inner-info {   
+    }   
+.inner-info {   
         flex-direction: column;  
         justify-content: center; 
         text-align: center; 
         align-items: center;
         padding: 20px;     
-    } 
-       
-     .header-inner .links {
+    }  
+.header-inner .links {
         display: none;  
     } 
-
-      .namburg {
+.namburg {
         display: block  ; 
         transform: translateY(-50%);
     }  
-
-      .cancel {
+.cancel {
         display: block; 
         color: white; 
     } 
-
-    .translate-container {
+.translate-container {
         position: absolute; 
         left: 10px;   
         top: 12px;
     }
-
-
-    .container .content {
+.container .content {
         width: 80%;
         text-align: center;
     }  
-
-     .container .image {
-        /* width: 80%;   */
+.container .image {
         margin-bottom: 20px;
-    } 
-
-    
-    .content {
+    }     
+.content {
         margin-top: 25px;         
     }
-
-    .content h1 {
+.content h1 {
         font-size: clamp(1rem, 1rem + 1vw, 1rem);
 }  
 
-    .content .typewriter {
+.content .typewriter {
       font-weight: 400; 
       font-size: clamp(1rem, 1rem + 1vw, 1rem);           
 }
 
-    .content .typewriter span {
+.content .typewriter span {
       font-size: 1.5rem;
 } 
 
-    .content p {
+.content p {
       font-size: clamp(1.2rem, 1.4rem + 9vw, 0.9rem);       
       margin: 20px 0;                   
 }
 
-    .social-links {
+.social-links {
         justify-content: center; 
         font-size: 10px;
     }
 
-    .social-links a {
+.social-links a {
         width: 2.5rem; 
         height: 2.5rem;
         font-size: 1.2rem;
     }  
 
-    .btn-download {       
+.btn-download {       
       padding: 10px 20px;           
 } 
-.contact-left {
+ .contact-info {
      display: flex;
      align-items: center;
      text-align: center;
@@ -1061,7 +997,7 @@ form .btn {
      flex-direction: column;
   }  
 
- .contact-left p i {
+ .contact-info p i {
      margin-right: 5px;
      font-size: 10px;
     }      
@@ -1095,83 +1031,64 @@ form .btn {
 }
  
     
-
-  
-
-
-
 @media (max-width:420px)  {  
-    
-    .certs-container
-        {
-        width: 100%;
-        padding: 0 16px; 
-        margin: 100px 0px 50px 0px;
+  .certs-container {
+     width: 100%;
+     padding: 0 16px; 
+     margin: 100px 0px 50px 0px;
     } 
-
-    .inner-card {
-       margin: 120px 0px 0px 0px;
+ .inner-card {
+     margin: 120px 0px 0px 0px;
     }
-
-    .section-skills  {
-        margin-top: 10rem;
+ .section-skills  {
+     margin-top: 10rem;
     }
-    
-    .container .content p {
-         font-size: clamp( 1.1rem, 1.4rem + 9vw, 0.9rem); 
+ .container .content p {
+     font-size: clamp( 1.1rem, 1.4rem + 9vw, 0.9rem); 
     }  
-     .namburg, .cancel {
-       cursor: pointer;
-       font-size: 1.5rem; 
-       position: absolute;
-       right: 10px;
-}
-    
-    .dropdown .links .cancel { 
-        position: absolute;  
-        font-size: 1rem;
-        top: 40px;
-        right: 0px;
+ .namburg, .cancel {
+     cursor: pointer;
+     font-size: 1.5rem; 
+     position: absolute;
+     right: 10px;
+    }    
+ .dropdown .links .cancel { 
+     position: absolute;  
+     font-size: 1rem;
+     top: 40px;
+     right: 0px;
     }
-
-    .social-links a {
-        width: 2.0rem;
-        height: 2.2rem;
-        font-size: 1rem;
+ .social-links a {
+     width: 2.0rem;
+     height: 2.2rem;
+     font-size: 1rem;
     } 
-
-    .social-icons a {
-    text-decoration: none; 
-    font-size: 25px; 
-    margin-right: 15px; 
-    color: #ababab;  
-    display: inline-block; 
-    transition: transform 0.5s;
+.social-icons a {
+     text-decoration: none; 
+     font-size: 25px; 
+     margin-right: 15px; 
+     color: #ababab;  
+     display: inline-block; 
+     transition: transform 0.5s;
 }
-
-    .container .image img {
-        width: 150px;
-        height: 150px; 
-        border: 2px solid #f3dcdc;        
+.container .image img {
+     width: 150px;
+     height: 150px; 
+     border: 2px solid #f3dcdc;        
     }  
-
-    .card .card-image {
-        width: 140px;
+.card .card-image {
+     width: 140px;
     } 
-    
-   .card .card-content span {
+.card .card-content span {
     color: #8B7355;
     font-size: 15px;
     margin: 50px 0px 15px 0px;
 }
-
-   .card .card-content strong {
+.card .card-content strong {
     color: #8B7355;
     font-size: 12px;
     margin: 40px 0px 20px 0px;
 } 
-
-
 .card .card-content p {
     color: #4D4D4D;
     font-size: 12px;
@@ -1179,7 +1096,6 @@ form .btn {
     margin: 8px 0 10px;
     text-align: center;
 }
-
 .card .card-image img {
     width: 100%;
     width: 130px;
@@ -1189,67 +1105,57 @@ form .btn {
 .card .card-content .skills-starting span {
     font-size: 12px;
 }
-
-     .title {
+.title {
         font-size: 1.5rem; 
     }
-
-    .contact-left {
+    .contact-info {
         font-size: 15px; 
     } 
-
-    
+  
 form .btn {
-    padding: 10px 40px;
-    font-size: 18px;
-    margin-top: 20px;
-    border: none;
+       padding: 10px 40px;
+       font-size: 18px;
+       margin-top: 20px;
+       border: none;
 } 
-   .translate-container {
-      /* top: 25px;   */         
+.translate-container {
       align-items: center;   
    }
-
-   .translate-btn {
-     min-width: 30px;
-     padding: 5px 10px; 
-     gap: 5px; 
-     font-size: 10px;  
-     
+.translate-btn {
+      min-width: 30px;
+      padding: 5px 10px; 
+      gap: 5px; 
+      font-size: 10px;   
    }  
-
-    .btn-wrapper .btn-download     {
-        font-size: 10px;  
-        padding: 10px 15px;
+.btn-wrapper .btn-download     {
+      font-size: 10px;  
+      padding: 10px 15px;
     } 
 
-    form .btn {
-        font-size: 10px;
+form .btn {
+      font-size: 10px;
     }  
-
-    .voice-assistant {
- 
-    position: fixed;
-    bottom: 20px;
-    right: 0px;
-    z-index: 9999;
+.voice-assistant {
+      position: fixed;
+      bottom: 20px;
+      right: 0px;
+      z-index: 9999;
   }
-    
-    .assistant-bubble {
-        position: absolute;
-        bottom: 80px;
-        right: 0;
-        width: 100px;
-        background: #262626;
-        color: #fff;
-        border-radius: 18px;
-        padding: 7px;
-        border: 3px solid #1c160f;
-        font-size: 12px;
-        box-shadow: inset 0 0 15px rgba(139, 90, 43, 0.3), 0 8px 25px rgba(0, 0, 0, 0.6);
+.assistant-bubble {
+      position: absolute;
+      bottom: 80px;
+      right: 0;
+      width: 100px;
+      background: #262626;
+      color: #fff;
+      border-radius: 18px;
+      padding: 7px;
+      border: 3px solid #1c160f;
+      font-size: 12px;
+      box-shadow: inset 0 0 15px rgba(139, 90, 43, 0.3), 0 8px 25px rgba(0, 0, 0, 0.6);
     } 
     
-    .assistant-bubble {
+.assistant-bubble {
        position: absolute;
        bottom: 70px;
        right: 0;
@@ -1263,8 +1169,7 @@ form .btn {
        box-shadow: inset 0 0 15px rgba(139, 90, 43, 0.3), 0 8px 25px rgba(0, 0, 0, 0.6);
    } 
     
-
-  .play-voice-btn {
+.play-voice-btn {
      background: #00ffff; 
      font-size: 12px;
      color: #000;
@@ -1284,47 +1189,39 @@ form .btn {
      background-color: #262626;
    }   
 
-   .copy-indicator {
+.copy-indicator {
      font-size: 10px;  
    } 
  } 
 
-
-
-
-
-
  @media (max-width:320px)  {
-    .container .image img {
-        width: 120px;
-        height: 100px;
-        border: 2px solid #f3dcdc;         
+.container .image img {
+     width: 120px;
+     height: 100px;
+     border: 2px solid #f3dcdc;         
     } 
-    .content .typewriter span {
-        font-size: 1.3rem;
+.content .typewriter span {
+     font-size: 1.3rem;
     }  
     
-    .inner-card {
-        margin: 100px 0px 0px 0px; 
+.inner-card {
+     margin: 100px 0px 0px 0px; 
     }  
-    .card {
-    width: min-content;
-    height: auto;
-    padding: 15px 5px 5px;
-    border: 4px solid #1c160f;
+.card {
+     width: min-content;
+     height: auto;
+     padding: 15px 5px 5px;
+     border: 4px solid #1c160f;
 }    
 
-    .card .card-image img {
-        width: 100%;
-        width: 115px;
-        height: 100px; 
-        background-color: red;
+.card .card-image img {
+      width: 100%;
+      width: 115px;
+      height: 100px; 
+      background-color: red;
     }  
-    .contact-left {
-        font-size: 12px;  
-        margin-left: 5px;
-        
-
+.contact-info {
+      font-size: 12px;  
+      margin-left: 5px;        
     }
-
  }
