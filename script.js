@@ -34,6 +34,26 @@ function cancel() {
 }
 
 
+// copy text   contact us
+document.querySelectorAll('.copy-text').forEach(item => {
+    item.addEventListener('mouseenter', () => {
+        const indicator = item.querySelector('.copy-indicator');
+        indicator.style.display = 'inline'; // Показати "Copy" при наведенні
+    });
+
+    item.addEventListener('mouseleave', () => {
+        const indicator = item.querySelector('.copy-indicator');
+        indicator.style.display = 'none'; // Сховати "Copy" при покинутті
+    });
+
+    item.addEventListener('click', () => {
+        const textToCopy = item.getAttribute('data-text');
+        navigator.clipboard.writeText(textToCopy).catch(err => {
+            console.error('Помилка копіювання:', err);
+        });
+    });
+});
+
 
 // Object with translations
 const translations = {
