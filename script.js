@@ -185,8 +185,8 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbzhxMEMA6jVWSAGYpo_2h
 // voice 
 const assistant = document.querySelector('.voice-assistant');
   const bubble    = document.querySelector('.assistant-bubble');
-  const myVoice   = new Audio('audio/audio_serega.ogg');
-  myVoice.volume  = 0.9;
+  const myVoice   = new Audio('audio/audiocleaner..wav');
+  myVoice.volume  = 1.0;
 
   let hasBeenShown = false;
 
