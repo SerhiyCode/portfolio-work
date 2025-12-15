@@ -76,7 +76,8 @@ const translations = {
         skills_title: "НАВИЧКИ",
         certificates_title: "Сертифікати",
         blogs_title: "Блог",
-        contact_title: "Зв’яжіться зі мною",
+        contact_title: "Зв’яжіться зі мною", 
+        form_btn: "Надіслати",
 
         // Skills 
         skills_card_title: "НАВИЧКИ",        
@@ -87,7 +88,8 @@ const translations = {
         sheets_text: "Гугл Таблиці",
         ai_text: "робота з нейронними мережами та штучним інтелектом", 
         al_text_voice: "Привіт! Це я — Сергій Хочеш почути моє голосове привітання",
-        voice_btn: "Так, голосом"             
+        voice_btn: "Так, голосом",               
+        contact_name: "Сергій"
     },
 
     en: {
@@ -101,12 +103,19 @@ const translations = {
         nav_skills: "Skills",
         nav_certificates: "Certificates",
         nav_blogs: "Blogs",
-        nav_contact: "Contact Us",
+        nav_contact: "Contact Us", 
+        form_btn: "Submit",
+      
+        
+
 
         skills_title: "SKILLS",
         certificates_title: "Certificates",
         blogs_title: "Blogs",
         contact_title: "Contact Me",
+
+        contact_name: "Sergey",
+
 
         skills_card_title: "SKILLS",
         figma_text: "figma",
