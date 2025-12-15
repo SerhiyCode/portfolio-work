@@ -76,8 +76,11 @@ const translations = {
         skills_title: "НАВИЧКИ",
         certificates_title: "Сертифікати",
         blogs_title: "Блог",
-        contact_title: "Зв’яжіться зі мною", 
+        contact_title: "Зв’яжіться зі мною",  
+        city_text: "Вінниця",
         form_btn: "Надіслати",
+        contact_name: "Sergey",
+
 
         // Skills 
         skills_card_title: "НАВИЧКИ",        
@@ -106,16 +109,12 @@ const translations = {
         nav_contact: "Contact Us", 
         form_btn: "Submit",
       
-        
-
-
         skills_title: "SKILLS",
         certificates_title: "Certificates",
         blogs_title: "Blogs",
-        contact_title: "Contact Me",
-
+        contact_title: "Contact Me",  
+        city_text: "Vinnytsia",
         contact_name: "Sergey",
-
 
         skills_card_title: "SKILLS",
         figma_text: "figma",
