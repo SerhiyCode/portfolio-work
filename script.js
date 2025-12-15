@@ -126,14 +126,6 @@ document.addEventListener('DOMContentLoaded', () => {
     translatePage('en');                   
 });
 
-sw.js
-self.addEventListener('fetch', event => {
-    // Блокуємо запити до Google Translate
-    if (event.request.url.includes('translate.google') || 
-        event.request.url.includes('translate.googleapis.com')) {
-        event.respondWith(new Response('', {status: 403}));
-    }
-});
 
 
 function translatePage(lang) {
