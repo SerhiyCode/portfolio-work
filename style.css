@@ -722,10 +722,22 @@ html, body {
     transition: transform 0.5s;     
 }
 
-.social-icons a:hover {
-    color: white; 
+.social-icons .whatsapp:hover {
+    color: #35d670; 
+    transform: translateY(-5px);  
+}  
+
+.social-icons .linkedin:hover {
+    color: #0288d1;
     transform: translateY(-5px);  
 } 
+
+.social-icons .telegram:hover {
+    color: #0088cc;
+    transform: translateY(-5px);  
+} 
+
+
 
 .contact-form form {
     width: 100%;      
