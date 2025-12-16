@@ -242,8 +242,6 @@ html, body {
     background: red; 
 }
 
-
-
 .dropdown .links a:hover {
     background-color: transparent;
 }  
@@ -401,21 +399,30 @@ html, body {
     align-items: center; 
     width: 3rem; 
     height: 3rem; 
-    background-color: transparent; 
-    border: 0.2rem solid rgb(109, 67, 0); 
+    border: 0.2rem solid #ababab;   
     border-radius: 50%; 
-    color: rgb(109, 67, 0); 
+    color: #ababab; 
     font-size: 1.5rem; 
     transition: 0.2s linear;
     text-decoration: none;
 }
 
-.social-links a:hover {
+.social-links .linkedin:hover {
     transform: scale(1.3); 
-    color: white; 
-    background-color: rgb(109, 67, 0); 
-    filter: drop-shadow(0 0 10px rgb(109, 67, 0));
-}  
+    color: #0288d1; 
+    border: 0.2rem solid #0288d1;
+} 
+
+.social-links .telegram:hover { 
+    transform: scale(1.3); 
+    color: #0088cc; 
+    border: 0.2rem solid #0288d1;    
+} 
+
+.social-links .whatsapp:hover {
+    color: #35d670; 
+    border: 0.2rem solid #35d670;
+}
 
   .content button {
    width: 40%;
@@ -550,7 +557,6 @@ html, body {
 }    
 
 .certs {   
-    /* background-image: url('./img/background-img.jpeg');  */ 
     background: #262626;
 }
 
@@ -722,22 +728,20 @@ html, body {
     transition: transform 0.5s;     
 }
 
-.social-icons .whatsapp:hover {
-    color: #35d670; 
-    transform: translateY(-5px);  
-}  
-
 .social-icons .linkedin:hover {
     color: #0288d1;
     transform: translateY(-5px);  
 } 
 
+.social-icons .whatsapp:hover {
+    color: #35d670; 
+    transform: translateY(-5px);  
+}  
+
 .social-icons .telegram:hover {
     color: #0088cc;
     transform: translateY(-5px);  
 } 
-
-
 
 .contact-form form {
     width: 100%;      
