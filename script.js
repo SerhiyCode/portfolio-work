@@ -77,7 +77,7 @@ const translations = {
         certificates_title: "Сертифікати",
         blogs_title: "Блог",
         contact_title: "Зв’яжіться зі мною",  
-        city_text: "Вінниця",
+        city_text: "Украйна",
         form_btn: "Надіслати",
         contact_name: "Sergey",
 
@@ -113,7 +113,7 @@ const translations = {
         certificates_title: "Certificates",
         blogs_title: "Blogs",
         contact_title: "Contact Me",  
-        city_text: "Vinnytsia",
+        city_text: "Ukraine",
         contact_name: "Sergey",
 
         skills_card_title: "SKILLS",
