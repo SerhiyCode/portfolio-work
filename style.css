@@ -116,7 +116,8 @@ html, body {
     text-decoration: none; 
     font-weight: 500; 
     transition: 0.3s linear; 
-}
+} 
+
 
 .header-inner .links a::before {
     position: absolute; 
@@ -945,8 +946,9 @@ form .btn {
     display: none;  
     } 
 .namburg {
-    display: block  ; 
-    transform: translateY(-50%);
+    display: block  ;  
+    color: #ababab;
+    transform: translateY(-50%); 
     }  
 .cancel {
     display: block; 
