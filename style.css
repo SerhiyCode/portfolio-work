@@ -194,7 +194,8 @@ html, body {
    position: absolute;        
    right: 20px;    
    top: 0; 
-   display: flex;
+   display: flex; 
+   gap: 5px;
    align-items: center;
    height: 100%;
 }
