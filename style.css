@@ -367,10 +367,10 @@ html, body {
 
 @keyframes words {
   0%, 33% {
-     content: "Engineer (AI)";
+     content: "Operator";
     } 
        40%, 66% {
-     content: "Operator";
+     content: "";
     }
        67%, 100% {
      content: " ";
@@ -473,14 +473,12 @@ html, body {
     justify-content: center;  
 }
 
-
 .card-content {
     display: flex;
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
 }  
-
 
 .card:hover {
     transform: scale(1.05);
@@ -529,7 +527,6 @@ html, body {
     letter-spacing: 5px; 
     border-radius: 5px; 
     padding: 5px 10px 5px 10px; 
-    
 }   
 
   .card .card-content p {

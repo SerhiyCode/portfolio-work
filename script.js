@@ -58,7 +58,8 @@ document.querySelectorAll('.copy-text').forEach(item => {
 // Object with translations
 const translations = {
     ua: {        
-        typewriter_words: ["Інженер (AI)", "Оператор", "Розробник", "Фронтенд-розробник"],
+        // typewriter_words: ["Інженер (AI)", "Оператор", "Розробник", "Фронтенд-розробник"],    
+        typewriter_words: ["тобі за те, що завітав"],    
         hero_title: "я <span>Сергій</span>", 
         hero: "Я <span></span> ", 
         hero_desc: "Шукаю команду, яка готова почати зі мною нову подорож, і дуже чекаю на це",
@@ -95,10 +96,11 @@ const translations = {
         contact_name: "Сергій"
     },
 
-    en: {
+    en: { 
+        hero: "i'm<span></span> ", 
         hero_title: "i'm <span>Sergey</span>",
-        typewriter_words: ["Engineer (AI)", "Operator", "Developer", "Frontend Dev"], 
-        hero_desc: "I am looking for a team that is ready to start a new journey with me, and I am looking forward to it",
+        // typewriter_words: ["Engineer (AI)", "Operator", "Developer", "Frontend Dev"],     
+        // hero_desc: "you for stopping by",
         download_cv: "Download CV",
 
         nav_home: "Home",
@@ -159,8 +161,6 @@ document.querySelectorAll('.translate-btn').forEach(btn => {
         translatePage(lang);
     });
 });
-
-
 
 
 
@@ -230,8 +230,6 @@ function initVoiceButton() {
     };
   };
 } 
-
-
 
 
 
